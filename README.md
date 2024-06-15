@@ -4,8 +4,8 @@ chat/src/index.tsx
 
 ```mermaid
 graph TD;
-    classDef mainNode fill:#f9f,stroke:#333,stroke-width:4px;
-classDef otherNode fill:#ccf,stroke:#333,stroke-width:2px;
+    classDef mainNode fill:#f9f,stroke:#333,stroke-width:4px,color:black;
+classDef otherNode fill:#ccf,stroke:#333,stroke-width:2px,color:black;
 3153979318["<b>DatasetStart.tsx</b><br/><small>dashboard/src/pages/Dashboard/Dataset/</small>;"]:::mainNode;
 subgraph "Inputs: Dashboard"
     823481955["<b>index.tsx</b><br/><small>dashboard/src/</small>;"]:::otherNode;
